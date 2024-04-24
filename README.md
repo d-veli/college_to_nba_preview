@@ -8,7 +8,7 @@ A player's college basketball performance does not always translate to NBA perfo
 
 #### Rationale
 **Why should anyone care about this question?**
-From a business perspective, NBA drafts have been notorious crapshoots where it is not uncommon for players drafted from college to end up underperforming their expectated value. This a huge waste of organizational investment in terms of time and money, not to mention the opportunity cost of a better replacement player. Thus, being able to determine a college player's likelihood of being performant in the NBA becomes a valuable tool for teams when investing in new talent direct from college. 
+From a business perspective, NBA drafts have been notorious crapshoots where it is not uncommon for players drafted from college to end up underperforming their expected value. This a huge waste of organizational investment in terms of time and money, not to mention the opportunity cost of a better replacement player. Thus, being able to determine a college player's likelihood of being performant in the NBA becomes a valuable tool for teams when investing in new talent direct from college. 
 
 
 #### Research Question
@@ -18,11 +18,11 @@ To be explicit then, our research question and data mining objective is to make 
 #### Data Sources
 **What data will you use to answer you question?**
 
-[College Basketball 2009-2021 + NBA Advanced Stats](https://www.kaggle.com/datasets/adityak2003/college-basketball-players-20092021): 
+[College Basketball 2009-2021 + NBA Advanced Stats](https://www.kaggle.com/datasets/adityak2003/college-basketball-players-20092021)
 - **Description**: Contains college statistics from 2009-2021 + advanced NBA stats from 2014-2022. 
 - **Rationale**: This source will provide the college performance data to be used as the independent variables.
 
-[20 Years of NBA Draft Data](https://www.kaggle.com/datasets/benwieland/nba-draft-data): 
+[20 Years of NBA Draft Data](https://www.kaggle.com/datasets/benwieland/nba-draft-data)
 - **Description**: NBA statistics for every pick, along with NCAA stat page links for data scraping. 
 - **Rationale**: This source will provide the list of college players who were drafted into the NBA. This will be the primary source on which the college statistics will be merged against. Additionally, the NBA statistics cover the length of each players career to date which will be used as inputs to our dependent variable.
 
